@@ -1,0 +1,5 @@
+<script type="text/javascript">
+	requirejs(['desktopnotifications.observe'],function(app){
+		app.startListening(<?php echo $this->getWidgetOptionsJson() ?>);
+	});
+</script>
